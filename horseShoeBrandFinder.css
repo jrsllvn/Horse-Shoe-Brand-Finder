@@ -59,8 +59,7 @@ root {
     --bs-font-monospace: SFMono-Regular,Menlo,Monaco,Consolas,
     "Liberation Mono","Courier New",monospace;
     --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
-    --bs-body-font-family: var(
-    --bs-font-sans-serif);
+
     --bs-body-font-size: 1rem;
     --bs-body-font-weight: 400;
     --bs-body-line-height: 1.5;
@@ -12311,14 +12310,9 @@ textarea.form-control-lg {
     background-color: #303030
 }
 
-#finderMarkerLayer img {
-    display: block;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  background: url(https://uploads-ssl.webflow.com/6425b98febbf571d6883252e/6425d292dfbbd62c0ebd857a_HS_Icon_Palomino_footer.png)
-    no-repeat;
-  width: 150px;
-  height: 193px;
-  padding-left: 180px;
+
+
+#finderMarkerLayer img { content: url("https://uploads-ssl.webflow.com/6425b98febbf571d6883252e/6425d292dfbbd62c0ebd857a_HS_Icon_Palomino_footer.png")!important; }
+   
 }
 
