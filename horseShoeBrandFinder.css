@@ -11,7 +11,7 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-root {
+:root {
     --bs-blue: #d1181e;
     --bs-indigo: #6610f2;
     --bs-purple: #6f42c1;
@@ -12310,8 +12310,6 @@ textarea.form-control-lg {
 }
 
 
-
-.replace img { content: url("https://uploads-ssl.webflow.com/6425b98febbf571d6883252e/6425d292dfbbd62c0ebd857a_HS_Icon_Palomino_footer.png")!important; }
-   
 }
+
 
