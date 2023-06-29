@@ -12310,3 +12310,15 @@ textarea.form-control-lg {
 .alert-dark {
     background-color: #303030
 }
+
+#finderMarkerLayer img {
+    display: block;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: url(https://uploads-ssl.webflow.com/6425b98febbf571d6883252e/6425d292dfbbd62c0ebd857a_HS_Icon_Palomino_footer.png)
+    no-repeat;
+  width: 180px;
+  height: 236px;
+  padding-left: 180px;
+}
+}
