@@ -66,6 +66,7 @@
     --bs-body-bg: #b26605;
 }
 
+
 *,::after,::before {
     box-sizing: border-box
 }
